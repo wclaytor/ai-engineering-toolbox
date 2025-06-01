@@ -144,4 +144,58 @@ Prompt Tower packages your codebase—files, directory structure, GitHub issues�
 
 ---
 
+## optillm
+https://github.com/codelion/optillm
+
+### Description
+optillm is an OpenAI API compatible optimizing inference proxy which implements several state-of-the-art techniques that can improve the accuracy and performance of LLMs. The current focus is on implementing techniques that improve reasoning over coding, logical and mathematical queries.
+
+It is possible to beat the frontier models using these techniques across diverse tasks by doing additional compute at inference time. A good example of how to combine such techniques together is the CePO approach from Cerebras.
+
+---
+
+
+## Roo-Code
+https://github.com/RooCodeInc/Roo-Code
+
+### Description
+Connect with developers, contribute ideas, and stay ahead with the latest AI-powered coding tools.
+
+Roo Code is an AI-powered autonomous coding agent that lives in your editor. It can:
+
+- Communicate in natural language
+- Read and write files directly in your workspace
+- Run terminal commands
+- Automate browser actions
+- Integrate with any OpenAI-compatible or custom API/model
+- Adapt its “personality” and capabilities through Custom Modes
+- Whether you’re seeking a flexible coding partner, a system architect, or specialized roles like a QA engineer or product manager, Roo Code can help you build software more efficiently.
+
+---
+
+
+## Roo Commander
+https://github.com/jezweb/roo-commander
+
+### Description
+Roo Commander: An Advanced Multi-Agent Framework for Roo Code
+Roo Commander helps developers using Roo Code manage complex software projects by orchestrating specialized AI agents within VS Code, improving structure, context management, and task delegation.
+
+Roo Commander is an advanced configuration layer and opinionated workflow system built specifically for the Roo Code VS Code extension. It transforms your Roo Code experience by implementing a sophisticated framework for managing software development projects using a structured, multi-agent approach. Imagine having a virtual, specialized software team within your VS Code workspace, orchestrated by the 👑 Roo Commander, to handle tasks with specific expertise and maintain a clear project history.
+
+---
+
+# Interesting Projects
+
+## Darwin Gödel Machine
+https://github.com/jennyzzt/dgm
+
+### Description
+Darwin Gödel Machine:
+Open-Ended Evolution of Self-Improving Agents
+
+Repository for Darwin Gödel Machine (DGM), a novel self-improving system that iteratively modifies its own code (thereby also improving its ability to modify its own codebase) and empirically validates each change using coding benchmarks.
+
+---
+
 to be continued...
