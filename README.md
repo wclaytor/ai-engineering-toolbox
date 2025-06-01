@@ -12,6 +12,22 @@ AI Engineering book and other resources
 #### About the book
 The availability of foundation models has transformed AI from a specialized discipline into a powerful development tool everyone can use. This book covers the end-to-end process of adapting foundation models to solve real-world problems, encompassing tried-and-true techniques from other engineering fields and techniques emerging with foundation models.
 
+-----
+
+## LangChain
+https://github.com/langchain-ai/langchain
+
+### Description
+LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.
+
+-----
+
+## LangGraph
+https://github.com/langchain-ai/langgraph
+
+### Description
+Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.
+
 ---
 
 ## LLM
@@ -48,7 +64,7 @@ https://github.com/icarito/gtk-llm-chat
 ### Description
 A GTK graphical interface for chatting with Large Language Models (LLMs).
 
----
+-----
 
 ## Open WebUI
 https://github.com/open-webui/open-webui
@@ -154,6 +170,46 @@ It is possible to beat the frontier models using these techniques across diverse
 
 ---
 
+## Sim Studio
+
+https://github.com/simstudioai/sim
+
+### Description
+Sim Studio is a lightweight, user-friendly platform for building AI agent workflows.
+
+---
+
+## Roast
+https://github.com/Shopify/roast
+
+### Description
+A convention-oriented framework for creating structured AI workflows, maintained by the Augmented Engineering team at Shopify.
+
+#### Why you should use Roast
+Roast provides a structured, declarative approach to building AI workflows with:
+
+Convention over configuration: Define powerful workflows using simple YAML configuration files and prompts written in markdown (with ERB support)
+Built-in tools: Ready-to-use tools for file operations, search, and AI interactions
+Ruby integration: When prompts aren't enough, write custom steps in Ruby using a clean, extensible architecture
+Shared context: Each step shares its conversation transcript with its parent workflow by default
+Step customization: Steps can be fully configured with their own AI models and parameters.
+Session replay: Rerun previous sessions starting at a specified step to speed up development time
+Parallel execution: Run multiple steps concurrently to speed up workflow execution
+Function caching: Flexibly cache the results of tool function calls to speed up workflows
+Extensive instrumentation: Monitor and track workflow execution, AI calls, and tool usage (see instrumentation documentation)
+
+---
+
+## Pocket Flow
+https://github.com/The-Pocket/PocketFlow
+
+### Description
+Pocket Flow is a 100-line minimalist LLM framework:
+- Lightweight: Just 100 lines. Zero bloat, zero dependencies, zero vendor lock-in.
+- Expressive: Everything you love—(Multi-)Agents, Workflow, RAG, and more.
+- Agentic Coding: Let AI Agents (e.g., Cursor AI) build Agents—10x productivity boost!
+
+-----
 
 ## Roo-Code
 https://github.com/RooCodeInc/Roo-Code
@@ -173,7 +229,6 @@ Roo Code is an AI-powered autonomous coding agent that lives in your editor. It 
 
 ---
 
-
 ## Roo Commander
 https://github.com/jezweb/roo-commander
 
@@ -183,7 +238,7 @@ Roo Commander helps developers using Roo Code manage complex software projects b
 
 Roo Commander is an advanced configuration layer and opinionated workflow system built specifically for the Roo Code VS Code extension. It transforms your Roo Code experience by implementing a sophisticated framework for managing software development projects using a structured, multi-agent approach. Imagine having a virtual, specialized software team within your VS Code workspace, orchestrated by the 👑 Roo Commander, to handle tasks with specific expertise and maintain a clear project history.
 
----
+-----
 
 # Model Context Protocol (MCP)
 
@@ -217,7 +272,7 @@ https://github.com/modelcontextprotocol/typescript-sdk
 ### Description
 The official TypeScript SDK for building Model Context Protocol servers and clients. Enables developers to create type-safe MCP integrations for Node.js applications, providing seamless connectivity between AI systems and external resources.
 
----
+-----
 
 # Interesting Projects
 
@@ -230,6 +285,6 @@ Open-Ended Evolution of Self-Improving Agents
 
 Repository for Darwin Gödel Machine (DGM), a novel self-improving system that iteratively modifies its own code (thereby also improving its ability to modify its own codebase) and empirically validates each change using coding benchmarks.
 
----
+-----
 
 to be continued...
