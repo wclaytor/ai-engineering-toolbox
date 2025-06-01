@@ -185,6 +185,40 @@ Roo Commander is an advanced configuration layer and opinionated workflow system
 
 ---
 
+# Model Context Protocol (MCP)
+
+## Model Context Protocol
+https://github.com/modelcontextprotocol/modelcontextprotocol
+
+### Description
+The Model Context Protocol (MCP) is an open standard that enables AI applications to securely connect to data sources and tools. MCP provides a unified way for AI systems to access external context, making AI assistants more capable while maintaining security and user control.
+
+---
+
+## MCP Servers
+https://github.com/modelcontextprotocol/servers
+
+### Description
+A collection of reference implementations for MCP servers, providing secure integrations with various data sources and tools. These servers enable AI applications to access external systems like databases, APIs, file systems, and development tools through the standardized MCP protocol.
+
+---
+
+## Python MCP SDK
+https://github.com/modelcontextprotocol/python-sdk
+
+### Description
+The official Python SDK for building Model Context Protocol servers and clients. This SDK provides the tools and abstractions needed to create secure, standardized integrations between AI applications and external data sources or tools.
+
+---
+
+## TypeScript MCP SDK
+https://github.com/modelcontextprotocol/typescript-sdk
+
+### Description
+The official TypeScript SDK for building Model Context Protocol servers and clients. Enables developers to create type-safe MCP integrations for Node.js applications, providing seamless connectivity between AI systems and external resources.
+
+---
+
 # Interesting Projects
 
 ## Darwin Gödel Machine
