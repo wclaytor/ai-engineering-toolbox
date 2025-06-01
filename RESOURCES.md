@@ -46,16 +46,25 @@ Path to a free self-taught education in Computer Science!
 ## Videos
 
 
-###
+### Andrej Karpathy
+https://m.youtube.com/andrejkarpathy
 
-#### Description
+#### Deep Dive into LLMs like ChatGPT
+https://youtu.be/7xTGNNLPyMI?si=8f04UBWGPAm3oGMo
+
+#### How I use LLMs
+https://youtu.be/EWvNQjAaOHw?si=u-1e6bp1YstlPPga
 
 ---
 
 
-###
+### IBM
 
-#### Description
+#### What is LangChain?
+https://youtu.be/1bUy-1hGZpI?si=cn-dvXToW1j-2tnh
+
+#### LangChain vs LangGraph: A Tale of Two Frameworks
+https://youtu.be/qAF1NjEVHhY?si=ig7UtpnBdCArlj2c
 
 ---
 
