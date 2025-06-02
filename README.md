@@ -1,10 +1,10 @@
 # AI Engineering Toolbox
 A list of open-source tools and resources for AI Engineering
 
-## AI Engineering
+## AI Engineering by Chip Huyen
 https://github.com/chiphuyen/aie-book
 
-Note: While the book is not open-source the resources on GitHub provide some great free content, and illustrate why you should buy and read the book.
+Note: While the [AI Engineering book](https://www.oreilly.com/library/view/ai-engineering/9781098166298) is not open-source, the resources on GitHub provide wonderful free content, and illustrate why you should buy (and read) the book.
 
 ### Description
 AI Engineering book and other resources
