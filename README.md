@@ -249,6 +249,22 @@ Pocket Flow is a 100-line minimalist LLM framework:
 - Expressive: Everything you love—(Multi-)Agents, Workflow, RAG, and more.
 - Agentic Coding: Let AI Agents (e.g., Cursor AI) build Agents—10x productivity boost!
 
+---
+
+## Agno
+https://github.com/agno-agi/agno
+
+### Description
+Agno is a full-stack framework for building Multi-Agent Systems with memory, knowledge and reasoning.
+
+Use Agno to build the 5 levels of Agentic Systems:
+
+- Level 1: Agents with tools and instructions.
+- Level 2: Agents with knowledge and storage.
+- Level 3: Agents with memory and reasoning.
+- Level 4: Agent Teams that can reason and collaborate.
+- Level 5: Agentic Workflows with state and determinism.
+
 -----
 
 ## Roo-Code
