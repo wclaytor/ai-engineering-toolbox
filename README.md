@@ -19,6 +19,10 @@ In additition to the projects listed below, this project contains lists of addit
 
 -----
 
+TODO: Categories
+
+-----
+
 ## LangChain
 https://github.com/langchain-ai/langchain
 
@@ -33,7 +37,7 @@ https://github.com/langchain-ai/langgraph
 ### Description
 Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.
 
----
+-----
 
 ## LLM
 https://github.com/simonw/llm
@@ -68,6 +72,14 @@ https://github.com/icarito/gtk-llm-chat
 
 ### Description
 A GTK graphical interface for chatting with Large Language Models (LLMs).
+
+-----
+
+## ollama
+https://github.com/ollama/ollama
+
+### Description
+Get up and running with large language models.
 
 -----
 
