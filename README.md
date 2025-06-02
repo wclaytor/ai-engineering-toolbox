@@ -89,6 +89,29 @@ https://github.com/open-webui/open-webui
 ### Description
 Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG, making it a powerful AI deployment solution.
 
+
+-----
+
+## Jan
+https://github.com/menloresearch/jan
+
+### Description
+Jan is a ChatGPT-alternative that runs 100% offline on your device. Our goal is to make it easy for a layperson to download and run LLMs and use AI with full control and privacy.
+
+Jan is powered by Cortex, our embeddable local AI engine that runs on any hardware. From PCs to multi-GPU clusters, Jan & Cortex supports universal architectures:
+
+- NVIDIA GPUs (fast)
+- Apple M-series (fast)
+- Apple Intel
+- Linux Debian
+- Windows x64
+- 
+Features:
+- Model Library with popular LLMs like Llama, Gemma, Mistral, or Qwen
+- Connect to Remote AI APIs like Groq and OpenRouter
+- Local API Server with OpenAI-equivalent API
+- Extensions for customizing Jan
+
 ---
 
 ## Skyvern
