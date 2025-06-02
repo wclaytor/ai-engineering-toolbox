@@ -13,10 +13,9 @@ AI Engineering book and other resources
 The availability of foundation models has transformed AI from a specialized discipline into a powerful development tool everyone can use. This book covers the end-to-end process of adapting foundation models to solve real-world problems, encompassing tried-and-true techniques from other engineering fields and techniques emerging with foundation models.
 
 ## Additional Resources
-In additition to the projects listed below, this project contains lists of additional resources such as YouTube videos, book, blogs, etc, ...
+In additition to the projects listed below, this project contains lists of additional resources such as videos, books, and blogs.
 
 [RESOURCES.md](RESOURCES.md)
-
 
 -----
 
