@@ -105,7 +105,7 @@ Jan is powered by Cortex, our embeddable local AI engine that runs on any hardwa
 - Apple Intel
 - Linux Debian
 - Windows x64
-- 
+
 Features:
 - Model Library with popular LLMs like Llama, Gemma, Mistral, or Qwen
 - Connect to Remote AI APIs like Groq and OpenRouter
