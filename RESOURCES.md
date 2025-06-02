@@ -21,6 +21,7 @@ https://github.com/ossu/computer-science
 #### Description
 Open Source Society University
 Path to a free self-taught education in Computer Science!
+
 ---
 
 ###
@@ -45,7 +46,6 @@ Path to a free self-taught education in Computer Science!
 
 ## Videos
 
-
 ### Andrej Karpathy
 https://m.youtube.com/andrejkarpathy
 
@@ -55,8 +55,7 @@ https://youtu.be/7xTGNNLPyMI?si=8f04UBWGPAm3oGMo
 #### How I use LLMs
 https://youtu.be/EWvNQjAaOHw?si=u-1e6bp1YstlPPga
 
----
-
+-----
 
 ### IBM
 
@@ -66,21 +65,25 @@ https://youtu.be/1bUy-1hGZpI?si=cn-dvXToW1j-2tnh
 #### LangChain vs LangGraph: A Tale of Two Frameworks
 https://youtu.be/qAF1NjEVHhY?si=ig7UtpnBdCArlj2c
 
----
+-----
 
 
-###
+### 3Blue1Brown
+https://m.youtube.com/@3blue1brown
 
-#### Description
+#### Neural Networks
+https://m.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 
 ---
 
 ## Books
 
 
-###
+### AI Engineering by Chip Huyen
+https://www.oreilly.com/library/view/ai-engineering/9781098166298
 
 #### Description
+The availability of foundation models has transformed AI from a specialized discipline into a powerful development tool everyone can use. This book covers the end-to-end process of adapting foundation models to solve real-world problems, encompassing tried-and-true techniques from other engineering fields and techniques emerging with foundation models.
 
 ---
 
