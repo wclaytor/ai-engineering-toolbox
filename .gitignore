@@ -56,7 +56,7 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 # Ruby CLI Tool specific ignores
-toolbox.db
+toolbox.db*
 .bundle/
 vendor/bundle/
 Gemfile.lock
