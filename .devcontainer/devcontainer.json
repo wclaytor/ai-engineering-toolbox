@@ -1,0 +1,39 @@
+{
+  "name": "AI Engineering Toolbox Ruby Development",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.2-bullseye",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rebornix.ruby",
+        "ms-vscode.vscode-json",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "ms-vscode-remote.remote-containers"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "ruby.rubocop.onSave": true,
+        "ruby.format": "rubocop",
+        "files.associations": {
+          "*.erb": "erb"
+        }
+      }
+    }
+  },
+
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y sqlite3 libsqlite3-dev && bundle config set --local path 'vendor/bundle' && bundle install && echo 'Setup complete! Try: bundle exec ./toolbox version'",
+  
+  "forwardPorts": [3000],
+  
+  "remoteUser": "vscode",
+  
+  "workspaceFolder": "/workspaces/ai-engineering-toolbox"
+}

@@ -54,3 +54,9 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# Ruby CLI Tool specific ignores
+toolbox.db
+.bundle/
+vendor/bundle/
+Gemfile.lock
