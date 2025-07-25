@@ -1,0 +1,89 @@
+DeepGuide-Ai / dg
+Self-testing CLI documentation tool that generates interactive demos
+ TypeScript  7  2Starred 7 hours ago
+marckrenn / rtfmbro-mcp
+rtfmbro provides always-up-to-date, version-specific package documentation as context for coding agents. An alternative to context7
+ 37  1Starred 7 hours ago
+alefore / duende
+Agent implementation for Conversational AI
+ Python  13  1Starred yesterday
+IHATEGIVINGAUSERNAME / theProtector
+Linux Bash Script for the Paranoid Admin on a Budget - real-time monitoring and active threat response
+ Shell  345  22Starred 2 days ago
+AsyncFuncAI / deepwiki-open
+Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme
+ TypeScript  8,661  877Starred 3 days ago
+BeehiveInnovations / zen-mcp-server
+The power of Claude Code + [Gemini / OpenAI / Grok / OpenRouter / Ollama / Custom Model / All Of The Above] working as one.
+ Python  5,180  465Starred 3 days ago
+mozilla-ai / any-llm
+Communicate with an LLM provider using a single interface
+ Python  451  18Starred 3 days ago
+Airbolt-AI / airbolt
+ TypeScript  10Starred 3 days ago
+katanemo / archgw
+The smart edge and AI gateway for agents. Arch is a proxy server that handles the low-level work in building agents like applying guardrails, routing prompts to the right agent, and unifying access to LLMs. It is framework-agnostic, natively understands prompts, and helps you build agents faster.
+ Rust  3,392  180Starred 3 days ago
+pmarreck / yt-transcriber
+TUI app- Give it a YouTube URL and you get a transcription with possible speaker identification and optional summary or translation, all thanks to open-source AI tooling and my lack of enough free time to watch content-sparse YouTube videos
+ Shell  271  10Starred 3 days ago
+jolibrain / colette
+Multimodal RAG to search and interact locally with technical documents of any kind
+ HTML  224  28Starred 4 days ago
+terhechte / CCORP
+Claude Code OpenRouter Proxy
+ Rust  3Starred 4 days ago
+jerpint / context-llemur
+Context management tool for LLM collaboration
+ Python  29Starred 4 days ago
+Azure-Samples / ai-rag-chat-evaluator
+Tools for evaluation of RAG Chat Apps using Azure AI Evaluate SDK and OpenAI
+ Python  295  104Starred last week
+HumanSignal / label-studio
+Label Studio is a multi-type data labeling and annotation tool with standardized output format
+ JavaScript  23,844  2,942Starred last week
+getAsterisk / claudia
+A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
+ TypeScript  9,788  778Starred last week
+lmnr-ai / lmnr
+Laminar - open-source all-in-one platform for engineering AI products. Create data flywheel for your AI app. Traces, Evals, Datasets, Labels. YC S24.
+ TypeScript  2,184  130Starred last week
+promptfoo / promptfoo
+Test your prompts, agents, and RAGs. Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.
+ TypeScript  7,707  621Starred last week
+comet-ml / opik
+Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
+ Python  11,724  814Starred last week
+dogsheep / github-to-sqlite
+Save data from GitHub to a SQLite database
+ Python  447  46Starred last week
+anthropics / claude-code
+Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+ PowerShell  25,996  1,425Starred 2 weeks ago
+BloopAI / vibe-kanban
+Kanban board to manage your AI coding agents
+ Rust  3,338  285Starred 2 weeks ago
+bentoml / llm-inference-handbook
+Everything you need to know about LLM inference
+ TypeScript  196  17Starred 2 weeks ago
+iosifache / annas-mcp
+MCP server and CLI tool for searching and downloading documents from Anna's Archive
+ Go  430  15Starred 2 weeks ago
+s-macke / AdventureAI
+Interactive Fiction in the Age of AI
+ Go  30  7Starred 3 weeks ago
+heyitsguay / trader
+LLM-powered trading sim
+ Python  3Starred 3 weeks ago
+FoundationAgents / MetaGPT
+🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
+ Python  57,461  6,909Starred 3 weeks ago
+MrLesk / Backlog.md
+Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem
+ TypeScript  2,740  118Starred 3 weeks ago
+sst / opencode
+AI coding agent, built for the terminal.
+ Go  14,843  898Starred 3 weeks ago
+eyaltoledano / claude-task-master
+An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
+ JavaScript  19,463  1,904

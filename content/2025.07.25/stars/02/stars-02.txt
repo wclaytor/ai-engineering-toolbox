@@ -1,0 +1,89 @@
+
+terryso / claude-auto-resume
+A shell script utility that automatically resumes Claude CLI tasks when usage limits are lifted.
+ Shell  481  23Starred 3 weeks ago
+awwaiid / gremllm
+A slight upgrade to the Gremlins in your code
+ Python  608  12Starred 3 weeks ago
+getzep / graphiti
+Build Real-Time Knowledge Graphs for AI Agents
+ Python  15,092  1,280Starred 3 weeks ago
+RedPlanetHQ / core
+Your personal plug and play memory layer for LLMs
+ TypeScript  441  31Starred 3 weeks ago
+davidkimai / Context-Engineering
+"Context engineering is the delicate art and science of filling the context window with just the right information for the next step." — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.
+ Python  3,528  351Starred last month
+ivanbelenky / RL
+R.L. methods and techniques.
+ Python  199  11Starred last month
+dmf-archive / IPWT
+IPWT: A unified, computationally feasible framework for consciousness, integrating predictive coding, workspace, and integrated information theories.
+ TeX  9Starred last month
+microsoft / vscode-copilot-chat
+Copilot Chat extension for VS Code
+ TypeScript  7,874  925Starred last month
+ExtensityAI / symbolicai
+Compositional Differentiable Programming Library
+ Python  1,554  72Starred last month
+HKUDS / LightRAG
+"LightRAG: Simple and Fast Retrieval-Augmented Generation"
+ Python  18,805  2,631Starred last month
+ExtensityAI / benchmark
+Evaluation of neuro-symbolic engines
+ Python  38Starred last month
+All-Hands-AI / OpenHands
+🙌 OpenHands: Code Less, Make More
+ Python  61,151  7,225Starred last month
+adam-s / doomberg-terminal
+ TypeScript  14  1Starred last month
+browser-use / workflow-use
+⚙️ Create and run workflows (RPA 2.0)
+ TypeScript  3,576  277Starred last month
+metabase / dataset-generator
+AI Dataset Generator – Create realistic datasets for demos, learning, and dashboards
+ TypeScript  647  34Starred last month
+stanfordnlp / dspy
+DSPy: The framework for programming—not prompting—language models
+ Python  26,669  2,053Starred last month
+LostRuins / koboldcpp
+Run GGUF models easily with a KoboldAI UI. One File. Zero Install.
+ C++  7,860  12,450Starred last month
+astral-sh / uv
+An extremely fast Python package and project manager, written in Rust.
+ Rust  62,599  1,800Starred on Jun 25
+PSModule / NerdFonts
+A PowerShell module to download and install fonts from NerdFonts.
+ PowerShell  28  2Starred on Jun 24
+ggozad / haiku.rag
+Retrieval Augmented Generation based on SQLite
+ Python  271  14Starred on Jun 24
+deskflow / deskflow
+Share a single keyboard and mouse between multiple computers.
+ C++  19,190  4,108Starred on Jun 23
+giantswarm / mcp-debug
+ Go  34Starred on Jun 22
+robertpiosik / CodeWebChat
+Free AI coding for the rest of us
+ TypeScript  1,047  91Starred on Jun 22
+anthropic-experimental / agentic-misalignment
+ Python  328  63Starred on Jun 21
+metauto-ai / NLSOM
+🧠 Societies of Mind & Economy of Minds
+ Python  62  10Starred on Jun 20
+anthropics / courses
+Anthropic's educational courses
+ Jupyter Notebook  16,629  1,476Starred on Jun 18
+anthropics / prompt-eng-interactive-tutorial
+Anthropic's Interactive Prompt Engineering Tutorial
+ Jupyter Notebook  16,958  1,592Starred on Jun 18
+onlook-dev / onlook
+The Cursor for Designers • An Open-Source Visual Vibecoding Editor • Visually build, style, and edit your React App with AI
+ TypeScript  20,890  1,387Starred on Jun 4
+agno-agi / agno
+Full-stack framework for building Multi-Agent Systems with memory, knowledge and reasoning.
+ Python  30,644  3,915Starred on Jun 2
+meta-llama / llama
+Inference code for Llama models
+ Python  58,557  9,786
+ 
