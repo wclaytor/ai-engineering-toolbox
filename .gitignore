@@ -60,3 +60,6 @@ toolbox.db
 .bundle/
 vendor/bundle/
 Gemfile.lock
+sample.md
+validation_demo.md
+demo.md

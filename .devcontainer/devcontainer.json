@@ -29,7 +29,7 @@
     }
   },
 
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y sqlite3 libsqlite3-dev && bundle config set --local path 'vendor/bundle' && bundle install && echo 'Setup complete! Try: bundle exec ./toolbox version'",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y sqlite3 libsqlite3-dev && bundle config set --local path 'vendor/bundle' && bundle install && echo '✅ Dev Container setup complete! Run: ./scripts/validate_setup.sh to test everything'",
   
   "forwardPorts": [3000],
   

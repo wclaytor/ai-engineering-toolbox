@@ -22,13 +22,12 @@
 
 #### Description
 <%= project.description %>
-
 <% if project.features_list.any? %>
+
 <% project.features_list.each do |feature| %>
 - <%= feature %>
 <% end %>
-
-<% end %>
 <% end %>
 
+<% end %>
 <% end %>
