@@ -9,6 +9,7 @@ gem 'erb', '~> 4.0'
 gem 'json', '~> 2.6'
 gem 'nokogiri', '~> 1.13'  # For HTML/Markdown parsing
 gem 'httparty', '~> 0.21'  # For URL validation
+gem 'rake', '~> 13.0'  # For database tasks
 
 group :development, :test do
   gem 'rspec', '~> 3.12'
