@@ -13,6 +13,7 @@ gem 'httparty', '~> 0.21'  # For URL validation
 group :development, :test do
   gem 'rspec', '~> 3.12'
   gem 'factory_bot', '~> 6.2'
+  gem 'database_cleaner', '~> 2.0'
   gem 'faker', '~> 3.0'
   gem 'rubocop', '~> 1.50'
 end
