@@ -12,7 +12,7 @@ Copilot performs better with clear, well-scoped tasks. Ideal tasks include:
 Think of the issue as a prompt for Copilot.
 
 # Instructions
-Review each Epic in the current Plan.md file and create a Task  for each Issue in the Epic. Format the Tasks as User Stories, for example:
+Review each Epic in the current Plan Phase file and create a Task  for each Issue in the Epic. Format the Tasks as User Stories, for example:
 ```
 As a <ROLE>
 I want <REQUEST>
@@ -24,4 +24,3 @@ You can adjust the exact wording based on the specific User Story but stick to t
 The Task should also include clear and verifiable Acceptence Criteria.
 
 * Format the document in Markdown so that we can copy it to Tasks.md
-
