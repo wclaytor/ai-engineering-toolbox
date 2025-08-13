@@ -3,41 +3,41 @@ module Toolbox
     def self.exit_on_failure?
       true
     end
-    
+
     desc "version", "Show version information"
     def version
       puts "AI Engineering Toolbox v#{Toolbox::VERSION}"
     end
-    
+
     desc "init", "Initialize database with schema"
     def init
       Toolbox::Database.setup
       puts "✅ Database initialized successfully!"
       puts "📍 Database location: #{Toolbox.database_path}"
     end
-    
+
     desc "generate", "Generate README.md from database"
     option :output, default: "README.md", desc: "Output file path"
     def generate
       Toolbox::Database.setup
       generator = Toolbox::Generator.new
       content = generator.generate
-      
+
       File.write(options[:output], content)
       puts "✅ Generated #{options[:output]} successfully!"
     end
-    
+
     desc "stats", "Show database statistics"
     def stats
       Toolbox::Database.setup
-      
+
       category_count = Category.count
       project_count = Project.count
-      
+
       puts "📊 AI Engineering Toolbox Statistics"
       puts "   Categories: #{category_count}"
       puts "   Projects: #{project_count}"
-      
+
       if category_count > 0
         puts "\n📁 Categories:"
         Category.order(:sort_order).each do |category|
@@ -45,30 +45,37 @@ module Toolbox
         end
       end
     end
-    
+
     desc "demo", "Load sample data for demonstration"
     def demo
       Toolbox::Database.setup
-      
+
       if Category.count > 0 || Project.count > 0
         puts "⚠️  Database already contains data. Use 'reset' first to clear it."
         return
       end
-      
+
       sample_data = [
         {
-          category: { name: "Application Development Frameworks", description: "Frameworks for building AI applications" },
+          category: { name: "Application Development Frameworks",
+                      description: "Frameworks for building AI applications" },
           projects: [
             {
               name: "LangChain",
               url: "https://github.com/langchain-ai/langchain",
-              description: "LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.",
+              description: "LangChain is a framework for building LLM-powered applications. " \
+                           "It helps you chain together interoperable components and third-party " \
+                           "integrations to simplify AI application development — all while " \
+                           "future-proofing decisions as the underlying technology evolves.",
               features: ["Component chaining", "Third-party integrations", "Future-proof architecture"]
             },
             {
               name: "LangGraph",
               url: "https://github.com/langchain-ai/langgraph",
-              description: "Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.",
+              description: "Trusted by companies shaping the future of agents – including " \
+                           "Klarna, Replit, Elastic, and more – LangGraph is a low-level " \
+                           "orchestration framework for building, managing, and deploying " \
+                           "long-running, stateful agents.",
               features: ["Low-level orchestration", "Stateful agents", "Agent management"]
             }
           ]
@@ -92,7 +99,7 @@ module Toolbox
           description: data[:category][:description],
           sort_order: index
         )
-        
+
         data[:projects].each_with_index do |project_data, project_index|
           Project.create!(
             category: category,
@@ -106,8 +113,8 @@ module Toolbox
       end
 
       # Add some metadata
-      Metadata.set('title', 'AI Engineering Toolbox')
-      Metadata.set('description', 'A list of open-source tools and resources for AI Engineering')
+      Metadata.set("title", "AI Engineering Toolbox")
+      Metadata.set("description", "A list of open-source tools and resources for AI Engineering")
 
       puts "✅ Sample data loaded successfully!"
       puts "   Categories: #{Category.count}"
