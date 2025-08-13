@@ -1,4 +1,4 @@
-require_relative '../lib/toolbox'
+require_relative "../lib/toolbox"
 
 # Initialize database
 Toolbox::Database.setup
@@ -11,13 +11,19 @@ sample_data = [
       {
         name: "LangChain",
         url: "https://github.com/langchain-ai/langchain",
-        description: "LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.",
+        description: "LangChain is a framework for building LLM-powered applications. " \
+                     "It helps you chain together interoperable components and third-party " \
+                     "integrations to simplify AI application development — all while " \
+                     "future-proofing decisions as the underlying technology evolves.",
         features: ["Component chaining", "Third-party integrations", "Future-proof architecture"]
       },
       {
         name: "LangGraph",
         url: "https://github.com/langchain-ai/langgraph",
-        description: "Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.",
+        description: "Trusted by companies shaping the future of agents – including " \
+                     "Klarna, Replit, Elastic, and more – LangGraph is a low-level " \
+                     "orchestration framework for building, managing, and deploying " \
+                     "long-running, stateful agents.",
         features: ["Low-level orchestration", "Stateful agents", "Agent management"]
       }
     ]
@@ -41,7 +47,7 @@ sample_data.each_with_index do |data, index|
     description: data[:category][:description],
     sort_order: index
   )
-  
+
   data[:projects].each_with_index do |project_data, project_index|
     Project.create!(
       category: category,
@@ -55,8 +61,8 @@ sample_data.each_with_index do |data, index|
 end
 
 # Add some metadata
-Metadata.set('title', 'AI Engineering Toolbox')
-Metadata.set('description', 'A list of open-source tools and resources for AI Engineering')
+Metadata.set("title", "AI Engineering Toolbox")
+Metadata.set("description", "A list of open-source tools and resources for AI Engineering")
 
 puts "✅ Sample data loaded successfully!"
 puts "   Categories: #{Category.count}"

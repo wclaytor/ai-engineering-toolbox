@@ -63,13 +63,19 @@ module Toolbox
             {
               name: "LangChain",
               url: "https://github.com/langchain-ai/langchain",
-              description: "LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.",
+              description: "LangChain is a framework for building LLM-powered applications. " \
+                           "It helps you chain together interoperable components and third-party " \
+                           "integrations to simplify AI application development — all while " \
+                           "future-proofing decisions as the underlying technology evolves.",
               features: ["Component chaining", "Third-party integrations", "Future-proof architecture"]
             },
             {
               name: "LangGraph",
               url: "https://github.com/langchain-ai/langgraph",
-              description: "Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.",
+              description: "Trusted by companies shaping the future of agents – including " \
+                           "Klarna, Replit, Elastic, and more – LangGraph is a low-level " \
+                           "orchestration framework for building, managing, and deploying " \
+                           "long-running, stateful agents.",
               features: ["Low-level orchestration", "Stateful agents", "Agent management"]
             }
           ]

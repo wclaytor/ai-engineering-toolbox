@@ -1,10 +1,10 @@
-require 'bundler/setup'
-require 'rspec'
-require 'factory_bot'
-require 'database_cleaner'
+require "bundler/setup"
+require "rspec"
+require "factory_bot"
+require "database_cleaner"
 
 # Load the main library
-require_relative '../lib/toolbox'
+require_relative "../lib/toolbox"
 
 RSpec.configure do |config|
   # Use the expect syntax
@@ -27,26 +27,26 @@ RSpec.configure do |config|
   # Configure DatabaseCleaner for tests that need database
   config.before(:each, :database) do
     # Set up test database for database tests
-    test_db_path = File.join(File.dirname(__dir__), 'test_toolbox.db')
-    
+    test_db_path = File.join(File.dirname(__dir__), "test_toolbox.db")
+
     # Establish test database connection
     ActiveRecord::Base.establish_connection(
-      adapter: 'sqlite3',
+      adapter: "sqlite3",
       database: test_db_path
     )
-    
+
     # Set up database schema
     Toolbox::Database.setup
-    
+
     DatabaseCleaner.strategy = :transaction
     DatabaseCleaner.start
   end
 
   config.after(:each, :database) do
     DatabaseCleaner.clean
-    
+
     # Clean up test database
-    test_db_path = File.join(File.dirname(__dir__), 'test_toolbox.db')
+    test_db_path = File.join(File.dirname(__dir__), "test_toolbox.db")
     File.delete(test_db_path) if File.exist?(test_db_path)
   end
 

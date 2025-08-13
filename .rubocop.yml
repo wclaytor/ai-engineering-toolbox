@@ -15,6 +15,8 @@ AllCops:
   SuggestExtensions: false
   Exclude:
     - "data/**/*"
+    - "db/schema.rb"
+    - "vendor/**/*"
 
 # All cops except your using extensions are disabled by default.
 Bundler:
