@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '~> 3.2'
 
 gem 'thor', '~> 1.2'
-gem 'activerecord', '~> 7.0'
+gem 'activerecord', '>= 7.0'
 gem 'sqlite3', '~> 1.4'
 gem 'erb', '~> 4.0'
 gem 'json', '~> 2.6'
@@ -17,4 +17,5 @@ group :development, :test do
   gem 'database_cleaner', '~> 2.0'
   gem 'faker', '~> 3.0'
   gem 'rubocop', '~> 1.50'
+  gem 'rubocop-rails-omakase', require: false
 end
